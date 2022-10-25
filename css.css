@@ -1,0 +1,107 @@
+body{
+    font-family: sans-serif;
+    background-color: #ffffff;
+    display: grid;
+
+}
+header{
+    display: flex;
+    justify-content: end;
+    background-color: rgba(252, 11, 96, 0.98);
+}
+a:link, a:visited {
+    background-color: #82f436;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: rgb(0, 253, 215);
+}
+.links {
+    text-align: end;
+    margin-right: 100px;
+    margin-top: 30px;
+    color: #00fd20;
+
+}
+.textContentHolder{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.rangeContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+
+}
+.wrapper{
+    margin-top: 30px;
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 400px;
+    height: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 60px;
+    background-image: linear-gradient(rgb(196, 69, 108), rgb(196, 69, 108));
+    background-repeat: no-repeat;
+}
+output{
+    font-family: monospace;
+    font-size: 18px;
+    color: rgb(196,69,108);
+}
+.rightSideLabels{
+    margin: 0 auto;
+}
+.leftSideLabels{
+    margin: 0 auto;
+}
+.leftSideLabels{
+    margin: 0 auto;
+    text-align: start;
+
+}
+.rightSideLabels{
+    margin: 0 auto;
+    text-align: end;
+}
+.rangeHolder{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.submitButton{
+    margin: 0 auto;
+    padding: 30px;
+
+}
+.submitButtonHolder{
+    display: flex;
+    margin: 0 auto;
+
+
+}
+#submitButton{
+    padding: 8px;
+}
+.showUserInput{
+    display: flex;
+    justify-content: center;
+}
+.showUserInput{
+    display: grid;
+    margin: 0 auto;
+}
+img{
+    margin: 0 auto;
+    align-items: center;
+}

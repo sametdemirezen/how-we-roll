@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>how we roll!</title>
+  <link href="css.css" rel="stylesheet">
+</head>
+<header>
+  <div class = "links">
+    <a href = "">Home</a>
+    <a href = "">How we roll!</a>
+    <a href = "">Rapport</a>
+  </div>
+</header>
+<body>
+<form>
+  <h2 style = "font-family:Papyrus ; font-size: 28px; text-align: center; margin-bottom: 40px" >Tell us a little about yourself!</h2>
+  <div class="textContentHolder">
+    <div style="margin-bottom: 10px">
+      <label for="fname">First name: </label>
+      <input type="text" id="fname" name="fname">
+    </div>
+    <div>
+    <label for="lname">Last name: </label>
+    <input type="text" id="lname" name="lname">
+    </div>
+  </div>
+  <div class = "wrapper">
+     <div  class = "rangeContainer">
+       <p class = "rightSideLabels">Early bird</p>
+      <p class = "rangeHolder">
+        <input type = "range" id = "earlyBird" name = "earlyBird" >
+        <output id = "earlyBirdOutput" > </output>
+      </p>
+       <p class = "leftSideLabels">Night owl</p>
+    </div>
+    <div  class = "rangeContainer">
+      <p class = "rightSideLabels">Work on together</p>
+      <p class = "rangeHolder">
+        <input type = "range" id = "workOnTogether" name = "workOnTogether" >
+        <output id = "workOnTogetherOutput" ></output>
+      </p>
+      <p class = "leftSideLabels">Go off alone and think</p>
+    </div>
+    <div  class = "rangeContainer">
+      <p class = "rightSideLabels">Tell me the back story</p>
+      <p class = "rangeHolder">
+        <input type = "range" id = "tellMeStorySlider" name = "tellMeStory" >
+        <output id = "tellMeStoryOutput" ></output>
+      </p>
+      <p class = "leftSideLabels">Cut to the chase</p>
+    </div>
+    <div  class = "rangeContainer">
+      <p class = "rightSideLabels">Verbal processor</p>
+      <p class = "rangeHolder">
+        <input type = "range" id = "processorSlider" name = "processor" >
+        <output id = "processorOutput" ></output>
+      </p>
+      <p class = "leftSideLabels">Mental processor</p>
+    </div>
+    <div  class = "rangeContainer">
+      <p class = "rightSideLabels">Schedule a time to chat</p>
+      <p class = "rangeHolder">
+        <input type = "range" id = "scheduleSlider" name = "schedule" >
+        <output id = "scheduleOutput" ></output>
+      </p>
+      <p class = "leftSideLabels">Interrupt me when you need me</p>
+    </div>
+    <div  class = "rangeContainer">
+      <p class = "rightSideLabels">Video chat</p>
+      <p class = "rangeHolder">
+        <input type = "range" id = "videoChatSlider" name = "videoChat" >
+        <output id = "videoChatOutput" ></output>
+      </p>
+      <p class = "leftSideLabels">Slack/text</p>
+    </div>
+    <div  class = "rangeContainer">
+      <p class = "rightSideLabels">9-17 hours</p>
+      <p class = "rangeHolder">
+        <input type = "range" id = "noSetScheduleSlider" name = "noSetSchedule" >
+        <output id = "noSetScheduleOutput" ></output>
+      </p>
+      <p class = "leftSideLabels">I have no set schedule</p>
+    </div>
+    <div  class = "submitButtonHolder">
+      <div class = "submitButton">
+        <input type  = "submit" id = "submitButton" name = "submitButton" value = "Submit">
+      </div>
+    </div>
+  </div>
+  </form>
+<div class = "showUserInput">
+  <p id = "showUserInput" style="font-size: 22px; font-family: fantasy" > </p>
+  <span class = "showEmoji"></span>
+  <pre></pre>
+</div>
+  <img src="img/teamwork1.jpg" alt = "teamwor image" width="1000em" height="400">
+  <script src = "sCRIPT.js"></script>
+</body>
+</html>

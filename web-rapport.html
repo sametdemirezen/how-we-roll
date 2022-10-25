@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id = "report" class = "canvas" width="600px"></canvas>
+
+<script>
+    var canvas = document.getElementById('report');
+    var context = canvas.getContext('2d');
+
+    fetch('https://bacit.info/hwr/20221024143238-a08933175a48cd4dd7cb3019c5b692f3.json')
+        .then(function (resp){
+            return resp.json();
+        })
+        .then (function (test){
+            console.log(test);
+        });
+</script>
+</body>
+</html>
